@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Love for You</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Background Music -->
+    <audio id="backgroundMusic" loop>
+        <source src="https://www.bensound.com/bensound-music/bensound-romantic.mp3" type="audio/mpeg">
+        <source src="https://www.zapsplat.com/wp-content/uploads/2015/sound-effects-one/zapsplat_multimedia_romantic_piano_melody_love_theme_gentle_60bpm_002_26939.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <!-- Music Control -->
+    <div class="music-control">
+        <button id="musicToggle" class="music-btn">
+            <i class="fas fa-music"></i>
+        </button>
+    </div>
+
+    <!-- Floating Hearts -->
+    <div class="floating-hearts">
+        <div class="heart heart-1">💖</div>
+        <div class="heart heart-2">💕</div>
+        <div class="heart heart-3">💗</div>
+        <div class="heart heart-4">💖</div>
+        <div class="heart heart-5">💕</div>
+        <div class="heart heart-6">💗</div>
+        <div class="heart heart-7">💖</div>
+        <div class="heart heart-8">💕</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-link">Home</a>
+            <a href="#love-section" class="nav-link">My Love</a>
+            <a href="#everything-section" class="nav-link">Everything</a>
+            <a href="#quotes-section" class="nav-link">Quotes</a>
+            <a href="#message-section" class="nav-link">Message</a>
+            <a href="#promises-section" class="nav-link">Promises</a>
+            <a href="#ownership-section" class="nav-link">Yours</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">To My Future Wife</h1>
+            <p class="hero-subtitle">The love of my life, my everything</p>
+            <div class="scroll-indicator">
+                <div class="scroll-arrow">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+        <div class="rose-petals">
+            <div class="petal petal-1"></div>
+            <div class="petal petal-2"></div>
+            <div class="petal petal-3"></div>
+            <div class="petal petal-4"></div>
+            <div class="petal petal-5"></div>
+        </div>
+    </section>
+
+    <!-- My Love for You Section -->
+    <section id="love-section" class="love-section">
+        <div class="container">
+            <h2 class="section-title">My Love for You</h2>
+            <div class="typewriter-container">
+                <p class="typewriter-text" id="typewriterText">
+                    In the quiet moments of dawn, when the world still sleeps and dreams dance in the air, 
+                    I find myself thinking of you. You are the melody that plays in my heart, the gentle 
+                    whisper that calms my storms, and the light that guides me through the darkest nights. 
+                    Every beat of my heart speaks your name, every breath I take is filled with thoughts of you. 
+                    You are not just the love of my life; you are life itself, wrapped in the most beautiful 
+                    soul I have ever known.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why You're My Everything Section -->
+    <section id="everything-section" class="everything-section">
+        <div class="container">
+            <h2 class="section-title">Why You're My Everything</h2>
+            <div class="reasons-grid">
+                <div class="reason-item" data-delay="0">
+                    <div class="reason-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="reason-content">
+                        <h3>Your Beautiful Soul</h3>
+                        <p>Your kindness illuminates every room you enter, and your compassion touches every heart you meet</p>
+                    </div>
+                </div>
+                <div class="reason-item" data-delay="200">
+                    <div class="reason-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="reason-content">
+                        <h3>Your Radiant Smile</h3>
+                        <p>When you smile, the world becomes brighter, and all my worries melt away like snow in spring</p>
+                    </div>
+                </div>
+                <div class="reason-item" data-delay="400">
+                    <div class="reason-icon">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <div class="reason-content">
+                        <h3>Your Gentle Spirit</h3>
+                        <p>You bring peace to my restless soul and turn my chaos into the most beautiful symphony</p>
+                    </div>
+                </div>
+                <div class="reason-item" data-delay="600">
+                    <div class="reason-icon">
+                        <i class="fas fa-infinity"></i>
+                    </div>
+                    <div class="reason-content">
+                        <h3>Your Endless Love</h3>
+                        <p>Your love is boundless, pure, and transformative - it has made me a better person</p>
+                    </div>
+                </div>
+                <div class="reason-item" data-delay="800">
+                    <div class="reason-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="reason-content">
+                        <h3>You Are My Home</h3>
+                        <p>In your arms, I have found my sanctuary, my place of belonging, my forever home</p>
+                    </div>
+                </div>
+                <div class="reason-item" data-delay="1000">
+                    <div class="reason-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <div class="reason-content">
+                        <h3>You Are My Queen</h3>
+                        <p>You reign over my heart with grace and love, and I am honored to be your devoted king</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beautiful Quotes Section -->
+    <section id="quotes-section" class="quotes-section">
+        <div class="container">
+            <h2 class="section-title">Love Quotes That Define Us</h2>
+            <div class="quotes-carousel">
+                <div class="quote-card active" data-quote="1">
+                    <div class="quote-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p class="quote-text">"In your eyes, I have found my home. In your heart, I have found my love. In your soul, I have found my mate."</p>
+                        <div class="quote-author">- For My Future Wife</div>
+                    </div>
+                </div>
+                <div class="quote-card" data-quote="2">
+                    <div class="quote-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p class="quote-text">"You are my today and all of my tomorrows. My heart beats for you alone, and my soul belongs to you completely."</p>
+                        <div class="quote-author">- Forever Yours</div>
+                    </div>
+                </div>
+                <div class="quote-card" data-quote="3">
+                    <div class="quote-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p class="quote-text">"I never knew what love was until I met you. Now I know that love is patient, love is kind, and love is you."</p>
+                        <div class="quote-author">- My Heart's Truth</div>
+                    </div>
+                </div>
+                <div class="quote-card" data-quote="4">
+                    <div class="quote-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p class="quote-text">"You are not just the love of my life, you are life itself. Without you, I am merely existing."</p>
+                        <div class="quote-author">- My Everything</div>
+                    </div>
+                </div>
+                <div class="quote-card" data-quote="5">
+                    <div class="quote-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p class="quote-text">"Every love story is beautiful, but ours is my favorite because it's written in the stars and sealed with eternity."</p>
+                        <div class="quote-author">- Our Destiny</div>
+                    </div>
+                </div>
+            </div>
+            <div class="quote-navigation">
+                <button class="quote-nav-btn" onclick="previousQuote()">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="quote-indicators">
+                    <span class="indicator active" data-quote="1"></span>
+                    <span class="indicator" data-quote="2"></span>
+                    <span class="indicator" data-quote="3"></span>
+                    <span class="indicator" data-quote="4"></span>
+                    <span class="indicator" data-quote="5"></span>
+                </div>
+                <button class="quote-nav-btn" onclick="nextQuote()">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- A Message From My Heart Section -->
+    <section id="message-section" class="message-section">
+        <div class="container">
+            <h2 class="section-title">A Message From My Heart</h2>
+            <div class="letter-container">
+                <div class="letter-paper">
+                    <div class="letter-header">
+                        <p class="letter-date">With all my love, always</p>
+                    </div>
+                    <div class="letter-content">
+                        <p class="letter-greeting">My Dearest Love,</p>
+                        
+                        <p class="letter-paragraph">
+                            As I write these words, my heart overflows with emotions so profound that mere language 
+                            seems inadequate to express them. You have become the very essence of my existence, the 
+                            reason I wake up each morning with hope and go to sleep each night with gratitude.
+                        </p>
+                        
+                        <p class="letter-paragraph">
+                            I must confess, my darling, that the thought of losing you terrifies me more than anything 
+                            else in this world. You have become so intertwined with my soul that I cannot imagine 
+                            a reality without you in it. You are not just someone I love; you are someone I need, 
+                            someone who completes the very fabric of my being.
+                        </p>
+                        
+                        <p class="letter-paragraph">
+                            Every day with you feels like a gift I don't deserve, yet one I cherish with every fiber 
+                            of my being. Your laughter is my favorite symphony, your touch is my greatest comfort, 
+                            and your love is my most precious treasure. I am completely and utterly yours, body and soul.
+                        </p>
+                        
+                        <p class="letter-paragraph">
+                            Please know that my love for you knows no bounds, no limits, no end. It grows stronger 
+                            with each passing moment, deeper with each shared experience, and more beautiful with 
+                            each memory we create together.
+                        </p>
+                        
+                        <p class="letter-signature">
+                            Forever and always yours,<br>
+                            <span class="signature-name">Your Devoted Heart</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promises Section -->
+    <section id="promises-section" class="promises-section">
+        <div class="container">
+            <h2 class="section-title">My Promises to You</h2>
+            <div class="promises-grid">
+                <div class="promise-item" data-delay="0">
+                    <div class="promise-number">1</div>
+                    <div class="promise-content">
+                        <h3>To Love You Unconditionally</h3>
+                        <p>I promise to love you with every breath I take, through every season of life, in sickness and in health, for richer or poorer, until my last heartbeat.</p>
+                    </div>
+                </div>
+                <div class="promise-item" data-delay="200">
+                    <div class="promise-number">2</div>
+                    <div class="promise-content">
+                        <h3>To Cherish Every Moment</h3>
+                        <p>I promise to treasure every second we spend together, to create beautiful memories, and to make each day better than the last.</p>
+                    </div>
+                </div>
+                <div class="promise-item" data-delay="400">
+                    <div class="promise-number">3</div>
+                    <div class="promise-content">
+                        <h3>To Protect Your Heart</h3>
+                        <p>I promise to guard your heart like the precious treasure it is, to never let anyone hurt you, and to be your safe haven always.</p>
+                    </div>
+                </div>
+                <div class="promise-item" data-delay="600">
+                    <div class="promise-number">4</div>
+                    <div class="promise-content">
+                        <h3>To Support Your Dreams</h3>
+                        <p>I promise to be your biggest supporter, to believe in your dreams, and to help you achieve everything your heart desires.</p>
+                    </div>
+                </div>
+                <div class="promise-item" data-delay="800">
+                    <div class="promise-number">5</div>
+                    <div class="promise-content">
+                        <h3>To Be Yours Forever</h3>
+                        <p>I promise to belong to you completely, to be your devoted partner, and to love you with a love that transcends time itself.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- You Own Me Section -->
+    <section id="ownership-section" class="ownership-section">
+        <div class="container">
+            <div class="ownership-content">
+                <h2 class="ownership-title">You Own Me</h2>
+                <div class="ownership-statements">
+                    <p class="ownership-text">I am completely and utterly yours</p>
+                    <p class="ownership-text">My heart beats only for you</p>
+                    <p class="ownership-text">I belong to you in every way</p>
+                    <p class="ownership-text">You are my owner, my master, my everything</p>
+                </div>
+                <div class="ownership-declaration">
+                    <p class="declaration-text">
+                        I am not my own anymore. I am a property of your love, 
+                        a possession of your heart, completely surrendered to you.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Message Section -->
+    <section id="final-section" class="final-section">
+        <div class="container">
+            <div class="final-content">
+                <h2 class="final-title">You are my forever, my always, my everything.</h2>
+                <div class="final-hearts">
+                    <span class="final-heart">💖</span>
+                    <span class="final-heart">💕</span>
+                    <span class="final-heart">💗</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
